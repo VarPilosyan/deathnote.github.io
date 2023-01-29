@@ -1,0 +1,489 @@
+/* .kiravd {
+    margin-top: 100px;
+    width: 500px;
+
+} */
+body {
+    background-color:silver;
+}
+.first {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+    .dn {
+          margin-left: 500px;
+          font-size: 50px;
+    }
+    .dn:hover {
+          color: rgb(6, 6, 82);
+          text-shadow: 2px 2px red
+    }
+
+   .deno {
+        width: 370px;
+        border: 3px solid rgb(72, 63, 63);
+        
+   }
+   
+   .text {
+        font-size: larger;
+        margin-left: 20px;
+        width: 850px;
+   }
+
+.yagami_light {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+   
+   .yl {
+    width: 270px; 
+    height: 60px;
+    font-size: 30px;
+    margin-left: 500px;
+    border: none;
+    border-radius: 100px;
+    transition: background-color 1s, color 0.15s;
+    margin-top: 50px;
+     }
+   .yl:hover {
+     background-color: rgb(41, 118, 211);
+     color: white;
+     box-shadow: 12px 12px 17px rgba(0, 0, 0, 0.5);
+   }
+   .yl:active {
+          opacity: 0.7;
+   }
+
+   .yali {
+        margin-left: 100px;
+        width: 200px;
+        zoom: 1.12;
+        border-radius: 200px;
+        border: 2px solid rgb(7, 7, 7);
+        filter: saturate(3);
+        
+   }
+   
+   .yali{
+     transition: 1s ease;
+     }
+     /* https://thebrandsmen.com/css-image-hover-effects/ */
+     .yali:hover{
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.1);
+     transition: 1s ease;
+     }
+
+
+   .text_yali {
+        font-size: larger;
+        margin-right: 20px;
+        width: 900px;
+        
+   }
+
+
+.L {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+   
+   .lawliet {
+        width: 270px; 
+        height: 60px;
+        font-size: 30px;
+        margin-left: 500px;
+        font-size: 30px;
+        margin-left: 500px;
+        border: none;
+        border-radius: 100px;
+        transition: background-color 1s, color 0.15s;
+        margin-top: 50px;
+    }
+    .lawliet:hover {
+     background-color: rgb(41, 118, 211);
+     color: white;
+     box-shadow: 12px 12px 17px rgba(0, 0, 0, 0.5);
+   }
+   .lawliet:active {
+          opacity: 0.7;
+    }
+   .image_L {
+        width: 330px;
+        border-radius: 200px;
+        margin-left: 35px;
+        border: 3px solid rgb(7, 7, 7);
+        zoom: 0.7;
+        
+   }
+    .image_L{
+     transition: 1s ease;
+     }
+     /* https://thebrandsmen.com/css-image-hover-effects/ */
+     .image_L:hover{
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.1);
+     transition: 1s ease;
+     }
+   
+   .text_L {
+        font-size: larger;
+        margin-left: 30px;
+        width: 900px;
+   }
+
+
+.ryuk {
+     display: grid;
+     align-items: center; 
+     grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .Ryuk {
+     width: 270px; 
+     height: 60px;
+     font-size: 30px;
+     margin-left: 500px;
+     font-size: 30px;
+     margin-left: 500px;
+     border: none;
+     border-radius: 100px;
+     transition: background-color 1s, color 0.15s;
+     margin-top: 50px;
+     
+    }
+    .Ryuk:hover {
+     background-color: rgb(41, 118, 211);
+     color: white;
+     box-shadow: 12px 12px 17px rgba(0, 0, 0, 0.5);
+   }
+   .Ryuk:active {
+          opacity: 0.7;
+    }
+    .image_ryuk {
+         margin-left: 100px;
+         width: 200px;
+         zoom: 1.1;
+         border-radius: 200px;
+         border: 3px solid rgb(7, 7, 7);
+         
+    }
+    .image_ryuk{
+     transition: 1s ease;
+     }
+     /* https://thebrandsmen.com/css-image-hover-effects/ */
+     .image_ryuk:hover{
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.1);
+     transition: 1s ease;
+     }
+    
+    .text_ryuk {
+         font-size: larger;
+         margin-right: 20px;
+         width: 900px;
+         
+    }
+ 
+
+
+
+.Amanemisa {
+     display: grid;
+     align-items: center; 
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 5px;
+    }
+    
+    .amanemisa {
+         width: 270px; 
+         height: 60px;
+         font-size: 30px;
+         margin-left: 500px;
+         font-size: 30px;
+         margin-left: 500px;
+         border: none;
+         border-radius: 100px;
+         transition: background-color 1s, color 0.15s;
+         margin-top: 50px;
+     }
+     .amanemisa:hover {
+          background-color: rgb(41, 118, 211);
+          color: white;
+          box-shadow: 12px 12px 17px rgba(0, 0, 0, 0.5);
+        }
+     .amanemisa:active {
+          opacity: 0.7;
+     }
+ 
+    .image_misa {
+         width: 330px;
+         margin-left: 40px;
+         border-radius: 200px;
+         border: 3px solid rgb(7, 7, 7);
+         zoom: 0.7;
+         
+    }
+    .image_misa{
+     transition: 1s ease;
+     }
+     /* https://thebrandsmen.com/css-image-hover-effects/ */
+     .image_misa:hover{
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.1);
+     transition: 1s ease;
+     }
+    
+    .text_misa {
+         font-size: larger;
+         margin-left: 35px;
+         width: 900px;
+    }
+ 
+ 
+
+.Near {
+     display: grid;
+     align-items: center; 
+     grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .near {
+     width: 270px; 
+     height: 60px;
+     font-size: 30px;
+     margin-left: 500px;
+     font-size: 30px;
+     margin-left: 500px;
+     border: none;
+     border-radius: 100px;
+     transition: background-color 1s, color 0.15s;
+     margin-top: 50px;
+     
+    }
+    .near:hover {
+     background-color: rgb(41, 118, 211);
+     color: white;
+     box-shadow: 12px 12px 17px rgba(0, 0, 0, 0.5);
+   }
+    .near:active {
+          opacity: 0.7;
+    }
+    .image_near {
+         margin-left: 90px;
+         width: 200px;
+         zoom: 1.2;
+         border-radius: 200px;
+         border: 1.5px solid rgb(7, 7, 7);
+         
+    }
+    .image_near{
+     transition: 1s ease;
+     }
+     /* https://thebrandsmen.com/css-image-hover-effects/ */
+     .image_near:hover{
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.1);
+     transition: 1s ease;
+     }
+    
+    .text_near {
+         font-size: larger;
+         margin-right: 20px;
+         width: 900px;
+         
+    }
+
+
+
+
+.Mello {
+     display: grid;
+     align-items: center; 
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 5px;
+    }
+    
+    .mello {
+         width: 270px; 
+         height: 60px;
+         font-size: 30px;
+         margin-left: 500px;
+         font-size: 30px;
+         margin-left: 500px;
+         border: none;
+         border-radius: 100px;
+         transition: background-color 1s, color 0.15s;
+         margin-top: 50px;
+     }
+     .mello:hover {
+          background-color: rgb(41, 118, 211);
+          color: white;
+          box-shadow: 12px 12px 17px rgba(0, 0, 0, 0.5);
+        }
+     .mello:active {
+          opacity: 0.7;
+     }
+ 
+    .image_mello {
+         width: 330px;
+         margin-left: 40px;
+         border-radius: 200px;
+         border: 3px solid rgb(7, 7, 7);
+         zoom: 0.73;
+         
+    }
+    .image_mello{
+     transition: 1s ease;
+     }
+     /* https://thebrandsmen.com/css-image-hover-effects/ */
+     .image_mello:hover{
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.1);
+     transition: 1s ease;
+     }
+    
+    .text_mello {
+         font-size: larger;
+         margin-left: 30px;
+         width: 900px;
+    }
+ 
+
+
+
+.Teru_Mikami {
+     display: grid;
+     align-items: center; 
+     grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .Teru-Mikami {
+     width: 270px; 
+     height: 60px;
+     font-size: 30px;
+     margin-left: 500px;
+     font-size: 30px;
+     margin-left: 500px;
+     border: none;
+     border-radius: 100px;
+     transition: background-color 1s, color 0.15s;
+     margin-top: 50px;
+     
+    }
+    .Teru-Mikami:hover {
+     background-color: rgb(41, 118, 211);
+     color: white;
+     box-shadow: 12px 12px 17px rgba(0, 0, 0, 0.5);
+   }
+    .Teru-Mikami:active {
+          opacity: 0.7;
+    }
+    .image_mikami {
+         margin-left: 90px;
+         width: 200px;
+         zoom: 1.2;
+         border-radius: 200px;
+         border: 1.5px solid rgb(7, 7, 7);
+         
+    }
+    .image_mikami{
+     transition: 1s ease;
+     }
+     /* https://thebrandsmen.com/css-image-hover-effects/ */
+     .image_mikami:hover{
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.1);
+     transition: 1s ease;
+     }
+    
+    .text_mikami {
+         font-size: larger;
+         margin-right: 20px;
+         width: 900px;
+         
+    }
+
+
+.Rem {
+     display: grid;
+     align-items: center; 
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: 5px;
+    }
+    
+    .rem {
+         width: 270px; 
+         height: 60px;
+         font-size: 30px;
+         margin-left: 500px;
+         font-size: 30px;
+         margin-left: 500px;
+         border: none;
+         border-radius: 100px;
+         transition: background-color 1s, color 0.15s;
+         margin-top: 50px;
+     }
+     .rem:hover {
+          background-color: rgb(41, 118, 211);
+          color: white;
+          box-shadow: 12px 12px 17px rgba(0, 0, 0, 0.5);
+        }
+     .rem:active {
+          opacity: 0.7;
+     }
+ 
+    .image_rem {
+         width: 330px;
+         margin-left: 40px;
+         border-radius: 200px;
+         border: 3px solid rgb(7, 7, 7);
+         zoom: 0.73;
+         
+    }
+    .image_rem {
+     transition: 1s ease;
+     }
+     /* https://thebrandsmen.com/css-image-hover-effects/ */
+     .image_rem:hover{
+     -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+     transform: scale(1.1);
+     transition: 1s ease;
+     }
+    
+    .text_rem {
+         font-size: larger;
+         margin-left: 30px;
+         width: 900px;
+    }
+
+
+
+.line_1 {
+    margin-top: 50px;
+    border: 5px dotted rgb(72, 63, 63);
+    border-radius: 1px;
+}
+
+
+a {
+    color: rgb(38, 0, 255);
+}
+a:hover {
+     color: rgb(0, 0, 0);
+}
